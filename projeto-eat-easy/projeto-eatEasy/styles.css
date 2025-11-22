@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fira+Code:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /*Cores*/
+    --color-white: #ffffff;
+    --color-bege: #D9B26E;
+    --color-brown: #8C3A1C;
+    --color-gray: #3E3E3E;
+    --color-green: #6B8E62;
+    --color-red: #A63D40;
+    --color-red-weak: #EADBC8;
+    --color-black-wak: rgba(0, 0, 0, 0.573);
+
+    /*Fontes e tamanhos*/
+    --font-size-main-tittle: 5rem;
+    --font-size-tittle: 2.25rem;
+    --font-size-sub-tittle: 1.2rem;
+    --font-size-normal: 1rem;
+    --font-size-medium: 0.875rem;
+    --font-size-small: 0.75rem;
+
+    --fonte-principal: "Lato", sans-serif;
+    --fonte-secundária: "Playfair Display";
+
+    --font-weight-semi-bold: 600
+}
+
+body {
+    padding: 0;
+    font-family: var(--fonte-principal);
+}
+
+.body-index {
+    background: linear-gradient(180deg, #8C3A1C 5%, #D9B26E 35%, #FFFFFF 50%);
+}

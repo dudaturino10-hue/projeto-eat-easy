@@ -1,0 +1,50 @@
+.secao-destaques, .secao-resultados {
+    margin-bottom: 3rem;
+}
+
+.s-d-titulo {
+    color: var(--color-white);
+    font-size: var(--font-size-tittle);
+    margin-bottom: 2.5rem;
+}
+
+.s-d-destaques {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto; /*tamanho da linha*/
+    gap: 1rem;
+}
+
+.s-d-destaques-item img {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.s-d-destaques-item {
+    background-color: var(--color-white);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* box-shadow: deslocamento   horizontal da sombra deslocamento vertical   desfoque da sombra   (cor da sombra com transparência)*/
+}
+
+.s-d-destaques-item a {
+    text-decoration: none;
+}
+
+.s-d-destaques-item:hover { /*quando passa o mouse em cima*/
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.s-d-destaques-item h3 {
+    color: var(--color-green);
+    font-size: var(--font-size-sub-tittle);
+    margin-bottom: 0.2rem;
+}
+
+.s-d-destaques-item span {
+    color: var(--color-gray);
+    font-size: var(--font-size-small);
+}

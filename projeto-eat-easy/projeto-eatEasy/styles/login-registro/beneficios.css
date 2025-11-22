@@ -1,0 +1,31 @@
+.secao-beneficios{
+    margin-bottom: 3rem;
+    max-width: 1200px;
+    margin: 0 auto 3rem auto;
+}
+
+.s-b-funcionamentos {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.s-b-funcionamentos div {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.s-b-funcionamentos div img {
+    width: 1.5rem;
+    margin-right: 0.5rem;    
+}
+
+
+.s-b-funcionamentos div p {
+    font-size: var(--font-size-normal);
+    color: var(--color-gray);
+}
