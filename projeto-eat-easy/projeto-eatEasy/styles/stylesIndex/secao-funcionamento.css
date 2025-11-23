@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .secao-funcionamento {
     margin-bottom: 3rem;
     max-width: 1200px;
@@ -41,4 +42,49 @@ color: var(--color-black-wa);
 .s-f-funcionamentos-funcionamento p {
     font-size: var(--font-size-normal);
     color: var(--color-gray);
+=======
+.secao-funcionamento {
+    margin-bottom: 3rem;
+    max-width: 1200px;
+    margin: 0 auto 3rem auto;
+}
+
+.s-f-titulo {
+    color: var(--color-gray);
+    font-size: var(--font-size-tittle);
+    margin-bottom: 2.5rem;
+}
+
+.s-f-funcionamentos {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+/* O cartão em si */
+.s-f-funcionamentos-funcionamento {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray);
+    border-radius: 0.5rem;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.s-f-funcionamentos-funcionamento img {
+    width: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.s-f-funcionamentos-funcionamento h3 {
+color: var(--color-black-wa);
+  font-size: var(--font-size-sub-tittle);  
+   margin-bottom: 0.5rem;
+}
+
+.s-f-funcionamentos-funcionamento p {
+    font-size: var(--font-size-normal);
+    color: var(--color-gray);
+>>>>>>> 058331c73f5ed94323da428e2a316c8113a416ac
 }

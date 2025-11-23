@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .secao-escolhas {
   background-color: var(--color-gray);
   margin-bottom: 3rem;
@@ -35,3 +36,42 @@
     color: var(--color-white);
 }
 
+=======
+.secao-escolhas {
+  background-color: var(--color-gray);
+  margin-bottom: 3rem;
+  padding: 3rem;
+}
+
+.s-e-titulo {
+  color: var(--color-white);
+  font-size: var(--font-size-tittle);
+  margin-bottom: 2.5rem;
+}
+
+.s-e-escolhas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 4rem;
+}
+
+.s-e-escolhas-escolha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s-e-escolhas-escolha img {
+  width: 10rem;
+   border-radius: 50%; 
+   box-shadow: 0 2px 8px rgba(60, 60, 60, 0.1);
+  margin-bottom: 0.5rem;
+}
+
+.s-e-escolhas-escolha h3 {
+    font-size: var(--font-size-normal);
+    color: var(--color-white);
+}
+
+>>>>>>> 058331c73f5ed94323da428e2a316c8113a416ac

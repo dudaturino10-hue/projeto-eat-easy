@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .cabecalho .res {
     display: flex;
     justify-content: space-between;
@@ -36,4 +37,44 @@
 .res {
     max-width: 1200px;
     margin: 0 auto;
+=======
+.cabecalho .res {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.cabecalho {
+    background-color: var(--color-brown);
+}
+
+.cabecalho-logo img {
+  width: 100px;      
+}
+
+.cabecalho-opcoes {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.cabecalho-opcao,
+.cabecalho-login {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: var(--font-size-normal);
+    font-weight: bold;
+}
+
+.cabecalho-login {
+    background-color: var(--color-gray);
+    padding: 0.5rem 0.9rem;
+    border-radius: 0.5rem;
+}
+
+.res {
+    max-width: 1200px;
+    margin: 0 auto;
+>>>>>>> 058331c73f5ed94323da428e2a316c8113a416ac
 }
