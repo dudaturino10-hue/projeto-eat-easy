@@ -1,4 +1,4 @@
-<?php
+p<?php
 require_once __DIR__ . '/php/pegaRestaurantes.php';
 require_once __DIR__ . '/php/filtroRestaurante.php';
 ?>
@@ -27,7 +27,7 @@ require_once __DIR__ . '/php/filtroRestaurante.php';
         <div class="cabecalho-opcoes">
             <a class="cabecalho-opcao" href="index.php">Início</a>
             <a class="cabecalho-opcao" href="./pages/historico-reservas.php">Minhas Reservas</a>
-            <a class="cabecalho-login" href="./pages/login-registo.php">Login/Registro</a>
+            <a class="cabecalho-login" href="./pages/login-registo.php">Login/RegistroASGSGD</a>
             <!---Ancora serve para levar a outra pagina do próprio site.-->
         </div>
     </div>
