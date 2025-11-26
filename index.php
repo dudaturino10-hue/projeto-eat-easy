@@ -1,4 +1,4 @@
-p<?php
+<?php
 require_once __DIR__ . '/php/pegaRestaurantes.php';
 require_once __DIR__ . '/php/filtroRestaurante.php';
 ?>

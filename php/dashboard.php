@@ -1,10 +1,10 @@
 <?php
-
-require_once __DIR__ . '/../conexao.php';
-
-
+session_start();
+if (!isset($_SESSION['usuario_nome'])) {
+    header("Location: ./login-registo.php"); // ou caminho para tua página de login
+    exit();
+}
 ?>
-
 
 <!DOCTYPE html>
 <html lang="pt-PT">
@@ -37,7 +37,14 @@ require_once __DIR__ . '/../conexao.php';
     <main class="main">
         <header class="header">
             <input type="text" placeholder="Search">
-            <button class="botao">👩 Olá Gabi (Admin)!</button>
+            <?php if (isset($_SESSION['usuario_nome'])): ?>
+                <button class="botao">
+                    Olá, <?= htmlspecialchars($_SESSION['usuario_nome']); ?>
+                </button>
+                <a class="botao" href="./logout.php">Logout</a>
+            <?php else: ?>
+                <a class="botao" href="./login-registo.php">Login/Registo</a>
+            <?php endif; ?>
         </header>
 
         <section class="dashboard">
